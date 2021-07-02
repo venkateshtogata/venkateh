@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
 
+<head></head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Todolist</h1>
+            <p>Each day I will accomplish one thing on my todo list.</p>
+            <h2 class="heading">Read a Book</h2>
+            <p class="paragragh">I don't think that the human race will survive the next thousand years,unless we spread into space.There are too many accidents that ca befall life on a single planet.But I'm an optimist</p>
+            <button class="button">Start</button>
+            <p class="paragragh2">Don't skip introduction</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+
+
+.container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    color: white;
+}
+
+.heading {
+    text-align: left;
+    font-size: 20px;
+}
+
+.paragragh {
+    text-align: left;
+    font-size: 18px;
+}
+
+.button {
+    color: white;
+    font-size: 18px;
+    font-style: bold;
+    border-radius: 0px;
+    height: 40px;
+    width: 100px;
+    background-color: orange;
+}
+
+.paragragh2 {
+    text-align: center;
+    font-size: 12px;
+    text-decoration: underline;
+}
